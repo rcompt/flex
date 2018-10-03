@@ -23,15 +23,16 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
-          <span class="tagline">A responsive Jekyll theme</span>
+          <h1 class="title"><a href="/"><img id="logo" src="/images/Logo.jpg"></a></h1>
+          <span class="tagline">PhD Candidate in Computer Science</span>
+		  <span class="tagline">Human-Computer Interaction Lab</span>
         </div>
         <div class="posts">
           <ul class="posts-list">
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  <!--<span class="post-date">{{ post.date | date_to_string }}</span>-->
                   {{ post.title }}
                 </a>
               </li>
